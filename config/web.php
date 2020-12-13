@@ -46,7 +46,6 @@ $config = [
                 'password' => 'QashqaiK554EY',
                 'port' => '465',
                 'encryption' => 'ssl',
-//                'charset' => 'utf-8',
             ],
         ],
         'log' => [
@@ -63,7 +62,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-
+                '/about' => '/site/about',
+                '/offer' => '/site/offer',
             ],
         ],
     ],

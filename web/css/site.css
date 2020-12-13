@@ -1587,7 +1587,7 @@ template {
 .about {
     width: 100%;
     position: relative;
-    background-image: url(/img/about/about-bgc.png);
+    background-image: url(/web/img/about/about-bgc.png);
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: auto 110%;
@@ -1626,7 +1626,7 @@ template {
 .banner {
     width: 100%;
     position: relative;
-    background-image: url(/img/banner/banner-bgc.png);
+    background-image: url(/web/img/banner/banner-bgc.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto;
@@ -2165,7 +2165,7 @@ textarea::placeholder {
     bottom: 0;
     width: 1.1em;
     height: 1em;
-    background-image: url(/img/footer__other__dosc__title/footer__other__dosc__title.png);
+    background-image: url(/web/img/footer__other__dosc__title/footer__other__dosc__title.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -2320,7 +2320,7 @@ textarea::placeholder {
     left: 0;
     width: 25px;
     height: 25px;
-    background-image: url(/img/mail/mail.png);
+    background-image: url(/web/img/mail/mail.png);
     background-size: cover;
 }
 .main {
@@ -2328,7 +2328,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 45px;
 }
 .main__subtitle {
     font-weight: 700;
@@ -2345,10 +2345,10 @@ textarea::placeholder {
     color: #fff;
 }
 .main-company-bg {
-    background: url(/img/main-company-bg/main-company-bg.jpg) top/cover no-repeat;
+    background: url(/web/img/main-company-bg/main-company-bg.jpg) top/cover no-repeat;
 }
 .main-stocks-bg {
-    background: url(/img/main-stocks-bg/main-stocks-bg.jpg) top/cover no-repeat;
+    background: url(/web/img/main-stocks-bg/main-stocks-bg.jpg) top/cover no-repeat;
 }
 .orange-rectangle {
     position: relative;
@@ -2366,7 +2366,7 @@ textarea::placeholder {
 .ourService {
     width: 100%;
     position: relative;
-    background-image: url(/img/ourService/ourService-bgc.png);
+    background-image: url(/web/img/ourService/ourService-bgc.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: auto;
@@ -2465,7 +2465,7 @@ textarea::placeholder {
 .p-404 {
     width: 100%;
     height: 100vh;
-    background: url(/img/p-404/p-404.png) 50% / cover no-repeat;
+    background: url(/web/img/p-404/p-404.png) 50% / cover no-repeat;
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
@@ -2493,7 +2493,7 @@ textarea::placeholder {
     top: -20%;
     width: 300px;
     height: 700px;
-    background: url(/img/p-404/p-404__content.png) 50% / contain no-repeat;
+    background: url(/web/img/p-404/p-404__content.png) 50% / contain no-repeat;
 }
 .p-404__subtitle {
     font-weight: 600;
@@ -2509,8 +2509,8 @@ textarea::placeholder {
     width: 100%;
     position: relative;
     z-index: 0;
-    background: url(/img/p-body/p-body-bgc--right.png) 100% 100%/35% no-repeat,
-    url(/img/p-body/p-body-bgc--left.png) 0 0/25% no-repeat;
+    background: url(/web/img/p-body/p-body-bgc--right.png) 100% 100%/35% no-repeat,
+    url(/web/img/p-body/p-body-bgc--left.png) 0 0/25% no-repeat;
     display: flex;
     align-items: center;
     padding: 50px 0;
@@ -2532,7 +2532,7 @@ textarea::placeholder {
     content: "";
     position: absolute;
     left: -2em;
-    background: url(/img/p-body/p-body__address.png) 50% / cover no-repeat;
+    background: url(/web/img/p-body/p-body__address.png) 50% / cover no-repeat;
     width: 1.4em;
     height: 1.4em;
 }
@@ -2589,12 +2589,12 @@ textarea::placeholder {
     background-repeat: no-repeat;
 }
 .p-body__pagintation__arrows-left {
-    background-image: url(/img/p-body/p-body__pagintation__arrows.png);
+    background-image: url(/web/img/p-body/p-body__pagintation__arrows.png);
     margin-right: 0.5em;
 }
 .p-body__pagintation__arrows-right {
     margin-left: 0.5em;
-    background-image: url(/img/p-body/p-body__pagintation__arrows.png);
+    background-image: url(/web/img/p-body/p-body__pagintation__arrows.png);
     transform: rotate(180deg);
 }
 .p-body__pagintation__item {
@@ -2631,7 +2631,7 @@ textarea::placeholder {
     content: "";
     position: absolute;
     left: -2em;
-    background: url(/img/p-body/p-body__tel.png) 50% / cover no-repeat;
+    background: url(/web/img/p-body/p-body__tel.png) 50% / cover no-repeat;
     width: 1.1em;
     height: 1.1em;
 }
@@ -2650,7 +2650,7 @@ textarea::placeholder {
     content: "";
     position: absolute;
     left: -2em;
-    background: url(/img/p-body/p-body__time.png) 50% / cover no-repeat;
+    background: url(/web/img/p-body/p-body__time.png) 50% / cover no-repeat;
     width: 1.3em;
     height: 1.3em;
 }
@@ -2830,58 +2830,58 @@ textarea::placeholder {
     grid-gap: inherit;
 }
 .p-gallery-item-img-18 {
-    background: url(/img/p-gallery-body/item-18.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-18.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-17 {
-    background: url(/img/p-gallery-body/item-17.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-17.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-16 {
-    background: url(/img/p-gallery-body/item-16.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-16.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-15 {
-    background: url(/img/p-gallery-body/item-15.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-15.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-14 {
-    background: url(/img/p-gallery-body/item-14.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-14.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-13 {
-    background: url(/img/p-gallery-body/item-13.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-13.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-12 {
-    background: url(/img/p-gallery-body/item-12.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-12.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-11 {
-    background: url(/img/p-gallery-body/item-11.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-11.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-10 {
-    background: url(/img/p-gallery-body/item-10.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-10.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-9 {
-    background: url(/img/p-gallery-body/item-9.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-9.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-8 {
-    background: url(/img/p-gallery-body/item-8.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-8.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-7 {
-    background: url(/img/p-gallery-body/item-7.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-7.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-6 {
-    background: url(/img/p-gallery-body/item-6.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-6.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-5 {
-    background: url(/img/p-gallery-body/item-5.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-5.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-4 {
-    background: url(/img/p-gallery-body/item-4.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-4.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-3 {
-    background: url(/img/p-gallery-body/item-3.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-3.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-2 {
-    background: url(/img/p-gallery-body/item-2.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-2.jpg) 50% / cover no-repeat;
 }
 .p-gallery-item-img-1 {
-    background: url(/img/p-gallery-body/item-1.jpg) 50% / cover no-repeat;
+    background: url(/web/img/p-gallery-body/item-1.jpg) 50% / cover no-repeat;
 }
 .p-info-body {
     font-size: 10px;
@@ -3046,7 +3046,7 @@ textarea::placeholder {
     right: 1em;
     width: 1.5em;
     height: 1.4em;
-    background: url(/img/p-info-body/p-info-body__service__btn.png) 50% / cover
+    background: url(/web/img/p-info-body/p-info-body__service__btn.png) 50% / cover
     no-repeat;
 }
 .p-info-body__service__item-left {
@@ -3307,7 +3307,7 @@ textarea::placeholder {
     top: 0.7em;
     width: 1.6em;
     height: 1.5em;
-    background: url(/img/p-service-body/p-service-body__aside__button.png);
+    background: url(/web/img/p-service-body/p-service-body__aside__button.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -3458,51 +3458,51 @@ textarea::placeholder {
     margin-bottom: 2em;
 }
 .dismantling-bgc {
-    background: url(/img/p-service-body__inner__img/dismantling-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/dismantling-bgc.jpg) 50% /
     cover no-repeat;
 }
 .trimming-bgc {
-    background: url(/img/p-service-body__inner__img/trimming-bgc.jpg) 50% / cover
+    background: url(/web/img/p-service-body__inner__img/trimming-bgc.jpg) 50% / cover
     no-repeat;
 }
 .wiring-bgc {
-    background: url(/img/p-service-body__inner__img/wiring-bgc.jpg) 50% / cover
+    background: url(/web/img/p-service-body__inner__img/wiring-bgc.jpg) 50% / cover
     no-repeat;
 }
 .heating-bgc {
-    background: url(/img/p-service-body__inner__img/heating-bgc.jpg) 50% / cover
+    background: url(/web/img/p-service-body__inner__img/heating-bgc.jpg) 50% / cover
     no-repeat;
 }
 .ventilation-bgc {
-    background: url(/img/p-service-body__inner__img/ventilation-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/ventilation-bgc.jpg) 50% /
     cover no-repeat;
 }
 .design-bgc {
-    background: url(/img/p-service-body__inner__img/design-bgc.jpg) 50% / cover
+    background: url(/web/img/p-service-body__inner__img/design-bgc.jpg) 50% / cover
     no-repeat;
 }
 .commissioning-bgc {
-    background: url(/img/p-service-body__inner__img/commissioning-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/commissioning-bgc.jpg) 50% /
     cover no-repeat;
 }
 .instrumentation-bgc {
-    background: url(/img/p-service-body__inner__img/instrumentation-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/instrumentation-bgc.jpg) 50% /
     cover no-repeat;
 }
 .sewage-and-water-disposal-bgc {
-    background: url(/img/p-service-body__inner__img/sewage-and-water-disposal-bgc.jpg)
+    background: url(/web/img/p-service-body__inner__img/sewage-and-water-disposal-bgc.jpg)
     50% / cover no-repeat;
 }
 .steel-erection-bgc {
-    background: url(/img/p-service-body__inner__img/steel-erection-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/steel-erection-bgc.jpg) 50% /
     cover no-repeat;
 }
 .water-supply-bgc {
-    background: url(/img/p-service-body__inner__img/water-supply-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/water-supply-bgc.jpg) 50% /
     cover no-repeat;
 }
 .conditioning-bgc {
-    background: url(/img/p-service-body__inner__img/conditioning-bgc.jpg) 50% /
+    background: url(/web/img/p-service-body__inner__img/conditioning-bgc.jpg) 50% /
     cover no-repeat;
 }
 .p-service-body__inner__list {
@@ -3541,62 +3541,62 @@ textarea::placeholder {
 }
 .p-service-grid-item-1 {
     grid-area: a;
-    background: url(/img/p-service-grid-item/p-service-grid-item-1.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-1.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-2 {
     grid-area: b;
-    background: url(/img/p-service-grid-item/p-service-grid-item-2.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-2.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-3 {
     grid-area: c;
-    background: url(/img/p-service-grid-item/p-service-grid-item-3.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-3.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-4 {
     grid-area: d;
-    background: url(/img/p-service-grid-item/p-service-grid-item-4.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-4.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-5 {
     grid-area: e;
-    background: url(/img/p-service-grid-item/p-service-grid-item-5.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-5.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-6 {
     grid-area: f;
-    background: url(/img/p-service-grid-item/p-service-grid-item-6.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-6.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-7 {
     grid-area: g;
-    background: url(/img/p-service-grid-item/p-service-grid-item-7.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-7.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-8 {
     grid-area: h;
-    background: url(/img/p-service-grid-item/p-service-grid-item-8.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-8.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-9 {
     grid-area: i;
-    background: url(/img/p-service-grid-item/p-service-grid-item-9.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-9.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-10 {
     grid-area: j;
-    background: url(/img/p-service-grid-item/p-service-grid-item-10.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-10.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-11 {
     grid-area: k;
-    background: url(/img/p-service-grid-item/p-service-grid-item-11.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-11.jpg) 50% /
     cover no-repeat;
 }
 .p-service-grid-item-12 {
     grid-area: l;
-    background: url(/img/p-service-grid-item/p-service-grid-item-12.jpg) 50% /
+    background: url(/web/img/p-service-grid-item/p-service-grid-item-12.jpg) 50% /
     cover no-repeat;
 }
 .p-title {
@@ -3908,7 +3908,7 @@ textarea::placeholder {
     left: 0;
     width: 25px;
     height: 25px;
-    background-image: url(/img/tel/tel.png);
+    background-image: url(/web/img/tel/tel.png);
     background-size: cover;
 }
 .triangle-title--wrap {
@@ -4028,7 +4028,7 @@ section {
         font-size: 19px;
     }
     .main {
-        margin-top: 90px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 32px;
@@ -4565,7 +4565,7 @@ section {
         transform: rotate(-135deg) translate(7px, 7px);
     }
     .main {
-        margin-top: 80px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 28px;
@@ -4992,7 +4992,7 @@ section {
         transform: rotate(-135deg) translate(6px, 6px);
     }
     .main {
-        margin-top: 75px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 26px;
@@ -5410,7 +5410,7 @@ section {
         transform: rotate(-135deg) translate(5px, 5px);
     }
     .main {
-        margin-top: 65px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 24px;
@@ -5883,7 +5883,7 @@ section {
         transform: rotate(-135deg) translate(5px, 6px);
     }
     .main {
-        margin-top: 60px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 22px;
@@ -6375,7 +6375,7 @@ section {
         height: 15px;
     }
     .main {
-        margin-top: 50px;
+        margin-top: 45px;
     }
     .main__title {
         font-size: 19px;

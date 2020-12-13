@@ -18,6 +18,8 @@ AppAsset::register($this);
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500,700,800,900&display=swap&subset=cyrillic"
+          rel="stylesheet">
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,11 +75,11 @@ AppAsset::register($this);
 
         <div class="header__menu--wrap">
             <nav class="header__menu">
-                <a href="/web/index.php?r=site%2Fabout" class="header__menu__link">О компании</a>
+                <a href="/about" class="header__menu__link">О компании</a>
                 <!-- /.header__menu__link -->
-                <a href="/web/index.php?r=site%2Fcontact" class="header__menu__link">Виды работ</a>
+                <a href="/proffesions" class="header__menu__link">Виды работ</a>
                 <!-- /.header__menu__link -->
-                <a href="/pages/news/news.php" class="header__menu__link">Новости</a>
+                <a href="/news/news.php" class="header__menu__link">Новости</a>
                 <!-- /.header__menu__link -->
                 <a href="/pages/gallery/gallery.php" class="header__menu__link">Галерея</a>
                 <!-- /.header__menu__link -->
